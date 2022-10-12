@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		EDB0691528F6E5A100F585ED /* AwardsCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0691428F6E5A100F585ED /* AwardsCollectionAppApp.swift */; };
-		EDB0691728F6E5A100F585ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0691628F6E5A100F585ED /* ContentView.swift */; };
 		EDB0691928F6E5A200F585ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB0691828F6E5A200F585ED /* Assets.xcassets */; };
 		EDB0691C28F6E5A200F585ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB0691B28F6E5A200F585ED /* Preview Assets.xcassets */; };
+		EDB0692328F6EED600F585ED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0692228F6EED600F585ED /* MainView.swift */; };
+		EDB0692528F6EF1100F585ED /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0692428F6EF1100F585ED /* CartRacingView.swift */; };
+		EDB0692728F6EF2200F585ED /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0692628F6EF2200F585ED /* AwardsView.swift */; };
+		EDB0692928F6EF3400F585ED /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0692828F6EF3400F585ED /* GradientRectangles.swift */; };
+		EDB0692B28F6F57700F585ED /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0692A28F6F57700F585ED /* StarterView.swift */; };
+		EDB0692D28F6F59000F585ED /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0692C28F6F59000F585ED /* PathView.swift */; };
+		EDB0692F28F7113C00F585ED /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB0692E28F7113C00F585ED /* CurvesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDB0691128F6E5A100F585ED /* AwardsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB0691428F6E5A100F585ED /* AwardsCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionAppApp.swift; sourceTree = "<group>"; };
-		EDB0691628F6E5A100F585ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDB0691828F6E5A200F585ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB0691B28F6E5A200F585ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDB0692228F6EED600F585ED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EDB0692428F6EF1100F585ED /* CartRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
+		EDB0692628F6EF2200F585ED /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		EDB0692828F6EF3400F585ED /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		EDB0692A28F6F57700F585ED /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		EDB0692C28F6F59000F585ED /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		EDB0692E28F7113C00F585ED /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				EDB0691428F6E5A100F585ED /* AwardsCollectionAppApp.swift */,
-				EDB0691628F6E5A100F585ED /* ContentView.swift */,
+				EDB0692C28F6F59000F585ED /* PathView.swift */,
+				EDB0692A28F6F57700F585ED /* StarterView.swift */,
+				EDB0692228F6EED600F585ED /* MainView.swift */,
+				EDB0692428F6EF1100F585ED /* CartRacingView.swift */,
+				EDB0692628F6EF2200F585ED /* AwardsView.swift */,
+				EDB0692E28F7113C00F585ED /* CurvesView.swift */,
+				EDB0692828F6EF3400F585ED /* GradientRectangles.swift */,
 				EDB0691828F6E5A200F585ED /* Assets.xcassets */,
 				EDB0691A28F6E5A200F585ED /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB0691728F6E5A100F585ED /* ContentView.swift in Sources */,
+				EDB0692528F6EF1100F585ED /* CartRacingView.swift in Sources */,
+				EDB0692728F6EF2200F585ED /* AwardsView.swift in Sources */,
+				EDB0692B28F6F57700F585ED /* StarterView.swift in Sources */,
+				EDB0692D28F6F59000F585ED /* PathView.swift in Sources */,
+				EDB0692328F6EED600F585ED /* MainView.swift in Sources */,
 				EDB0691528F6E5A100F585ED /* AwardsCollectionAppApp.swift in Sources */,
+				EDB0692F28F7113C00F585ED /* CurvesView.swift in Sources */,
+				EDB0692928F6EF3400F585ED /* GradientRectangles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

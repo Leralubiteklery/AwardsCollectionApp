@@ -13,7 +13,7 @@ struct GradientRectangles: View {
             let width = geometry.size.width
             let height = geometry.size.height
             ZStack {
-                ForEach(0..<2) { iteration in
+                ForEach(0..<3) { iteration in
                     Rectangle()
                         .fill(
                             LinearGradient(

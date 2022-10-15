@@ -12,7 +12,23 @@ struct MainView: View {
     @State private var awardIsShowing = false
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button(action: { awardIsShowing.toggle() }) {
+                HStack {
+                    Text(awardIsShowing ? "Hide Award" : "Show award")
+                    Spacer()
+                    Image(systemName: "chevron.up.square")
+                        .scaleEffect(awardIsShowing ? 2 : 1)
+                        .rotationEffect(.degrees(awardIsShowing ? 0 : 180))
+                        .animation(.default, value: awardIsShowing)
+                }
+            }
+            
+            Spacer()
+            GradientRectangles()
+                .frame(width: 250, height: 250)
+            Spacer()
+        }
     }
 }
 

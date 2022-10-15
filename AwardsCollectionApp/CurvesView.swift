@@ -84,6 +84,6 @@ struct CurvesView: View {
 struct CurvesView_Previews: PreviewProvider {
     static var previews: some View {
         CurvesView()
-            .font(CGSize(width: 200, height: 200))
+            .frame(width: 200, height: 200)
     }
 }
